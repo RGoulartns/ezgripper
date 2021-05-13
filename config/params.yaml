@@ -1,0 +1,21 @@
+ezgripper_node:
+  ros__parameters:
+    port: "/dev/ttyUSB0"
+    baudrate: 57600
+    default_torque: 50
+    names:
+      - "gripper1"
+      #- "gripper2"
+    servo_ids:
+      - 1
+      #- 2
+
+ezgripper2_node:
+  ros__parameters:
+    port: "/dev/ttyUSB1"
+    baudrate: 57600
+    default_torque: 50
+    names:
+      - "gripper2"
+    servo_ids:
+      - 2
